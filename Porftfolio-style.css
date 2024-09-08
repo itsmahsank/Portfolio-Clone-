@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    border: border-box;
+    color: #777;
+
+}
+
+.Search-icon{
+    display: inline;
+}
+
+.nav-options{
+    text-decoration: none;
+}
+
+.home-bgi{
+    background-image: url("home-bgi.jpg");
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.home-bgi,.portfolio-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.border:hover{
+
+    background-color: gray;
+    color: white;
+    border: 2px solid gray; 
+}
+
+
+.bordericon{
+    border: 1.5px solid transparent;
+    padding: 8px 16px;
+    font-size: 1rem;
+    position: relative;
+    left:1000px ;
+}
+
+.bordericon:hover{
+    background-color: red;
+    color: white;
+}
+
+
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.logo-msg{
+    background-color: black;
+    font-family:sans-serif;
+    height: 55px;
+    width: 400px;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    box-sizing :border-box;
+    
+}
+
+
+.mydes{
+    box-sizing :border-box;
+    display: block;
+    font-size :15px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.content-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    
+    padding-right: 35px;
+    padding-top: 10px;
+    margin-bottom: 35px;
+    
+}
+#namestyle
+{
+    padding-bottom: 30px;
+    
+}
+
+
+
+.about-conetnt-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.outer-photo{
+    height:40px ;
+    width: 1000px;
+    background-color: whitesmoke;
+    
+}
+.inner-photo{
+    height:40px ;
+    width:90%;
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.outer-web{
+    height:40px ;
+    width: 1000px;
+    background-color: whitesmoke;
+    
+}
+.inner-web{
+    height:40px ;
+    width:85%;
+    background-color: #777;
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.outer-sho{
+    height:40px ;
+    width: 1000px;
+    background-color: whitesmoke;
+    
+}
+.inner-sho{
+    height:40px ;
+    width:75%;
+    background-color: #777;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.photobox{
+   
+  padding-left: 18%;
+   
+}
+
+.webbox{
+   
+    padding-left: 18%;
+     
+  }
+
+.photoshopbox{
+   
+    padding-left: 18%;
+     
+  }
+
+.mym{
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+
+}
+
+.text{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.skills{
+    margin-bottom: 20px;
+}
+
+.bigbox{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 10px;
+    background-color: #777;
+
+}
+
+.number{
+
+    font-size: 1.5rem;
+    color: white;
+}
+
+.bigboxmsg{
+
+    color: white;
+}
+
+.portfolio-img{
+    background-image: url("porfolio-bg-img.jpg");
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio-msg{
+    color: white;
+    font-family:sans-serif;
+    font-size: 5rem;
+
+    
+}
+
+.box{
+    height: 200px;
+    width: 18%;
+}
+
+.portfolio-content{
+text-align: center;
+margin-top: 35px;
+}
+
+.work-msg{
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.mycontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.loadmore{
+    height: 45px;
+    font-size: 1.25rem;
+    color: black;
+    box-sizing :border-box;
+    border-radius: 5px;
+    margin-top:64px;
+    margin-bottom:64px;
+}
+
+
+.contact-bg{
+    background-image: url("contact-img.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-msg{
+    color: white;
+    font-size: 4rem;
+}
+
+.contact-box{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-box-msg{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+
+}
+
+.address-img{
+    height:150px;
+    width: 200px;
+    background-image: url("location.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.address-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5rem;
+    margin-bottom: 20px;
+}
+
+.address-details{
+    font-size: 1.25rem;
+}
+
+
+.myinput{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 2rem;
+   position: relative;
+   left: 100px;
+  
+
+
+   
+}
+
+
+#inp-name#inp-email{
+    font-size: 1.25rem;
+
+}
+
+.fmsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 105px;
+    
+}
+
+.sendbtn{
+    background-color: black;
+    color: white;
+  
+    
+}
+.sendbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 30px;
+   position: relative;
+   left: 400px;
+   margin-bottom: 20px;
+ 
+   
+}
+.sendbtn{
+    font-size: 1.25rem;
+}
+
+
+.footer{
+    height: 100px;
+    background-color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+footer:hover{
+    background-color: black;
+    color: white
+}
+
